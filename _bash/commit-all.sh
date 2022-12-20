@@ -15,14 +15,15 @@ function process_dir {
   # $1 is the directory passed as an argument to the function
   if [ -d "$1/.git" ]; then
     echo -e "\033[0;33mCommitting any changes in $1 \033[0m" &&
-    cd "$rootdir$1" 
-    echo $(pwd) &&
+    cd "$rootdir$1"
+    echo "\033[0;34mpwd r1\033[0m" $(pwd) &&
     git add . && 
     git pull && 
     git add . &&
     git commit -m "$2" && 
     git push &&
-    cd $rootdir
+    cd $rootdir && 
+    echo "\033[0;34mpwd rootdir\033[0m" $(pwd)
   fi
 }
 
