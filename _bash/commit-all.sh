@@ -17,12 +17,12 @@ function process_dir {
     echo -e "\033[0;33mCommitting any changes in $1 \033[0m" &&
     cd "$rootdir$1" 
     echo $(pwd) &&
-    cd $rootdir &&
     git add . && 
     git pull && 
     git add . &&
     git commit -m "$2" && 
-    git push
+    git push &&
+    cd $rootdir
   fi
 }
 
