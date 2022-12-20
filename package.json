@@ -8,8 +8,9 @@
     "modules/*"
   ],
   "scripts": {
-    "turbo-build": "turbo run build",
-    "turbo-dev": "turbo run dev --parallel"
+    "build-turbo": "turbo run build",
+    "build-lerna": "lerna run build",
+    "dev-turbo": "turbo run dev --parallel"
   },
   "dependencies": {
     "next": "^12.3.4",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
+    "lerna": "^6.1.0",
     "postcss": "^8.4.17",
     "turbo": "^1.6.3"
   },
