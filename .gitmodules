@@ -38,3 +38,7 @@
 	url = git@github.com:paulshorey/fn.git
   branch = main
 
+[submodule "modules/ui"]
+	path = modules/ui
+	url = git@github.com:paulshorey/harmony-ui.git
+  branch = main
