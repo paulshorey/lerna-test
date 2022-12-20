@@ -7,9 +7,9 @@ function process_dir {
   # $1 is the directory passed as an argument to the function
   if [ -d "$1/.git" ]; then
     echo "Committing any changes in $1" &&
-    git add . &
-    git pull 
-    git commit -m "$2"
+    git add . && 
+    git pull && 
+    git commit -m "$2" && 
     git push
   fi
 }
