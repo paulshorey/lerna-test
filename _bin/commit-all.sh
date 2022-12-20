@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Usage: bash _bin/commit-all.sh <folder-to-start-at> <commit-message>
+# bash _bin/commit-all.sh . 'fixed npm dependencies so all modules work in mono/multi repo'
+
 # Optionally, make this file executable: chmod +x recursive_iteration.sh
 # Or call it with: bash recursive_iteration.sh
 cwd=$( cd "$(dirname "$0")" ; pwd -P )

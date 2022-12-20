@@ -5,6 +5,12 @@ node_modules
 .pnp
 .pnp.js
 
+.yarn/
+.yarnrc
+yarn.lock
+package-lock.json
+yarn-error.log
+
 # testing
 coverage
 
@@ -37,8 +43,7 @@ yarn-error.log*
 .history
 .cache
 .idea
-# tsconfig.ts
-# buildinfo
+tsconfig.tsbuildinfo
 
 # generated
 __diff_output__

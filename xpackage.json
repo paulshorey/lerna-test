@@ -3,13 +3,13 @@
   "version": "0.0.1",
   "private": true,
   "workspaces": [
-    "apis/*",
     "apps/*",
+    "apis/*",
     "modules/*"
   ],
   "scripts": {
-    "turbo-build": "turbo run build",
-    "turbo-dev": "turbo run dev --parallel"
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel"
   },
   "dependencies": {
     "next": "^12.3.4",
