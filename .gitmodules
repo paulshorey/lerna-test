@@ -1,0 +1,44 @@
+[submodule "apps/notion"]
+	path = apps/notion
+	url = git@github.com:paulshorey/notion-next-app.git
+  branch = main
+
+[submodule "apps/ps"]
+	path = apps/ps
+	url = git@github.com:paulshorey/ps.git
+  branch = main
+
+[submodule "apps/responsive-dev"]
+	path = apps/responsive-dev
+	url = git@github.com:paulshorey/responsive-dev.git
+  branch = main
+
+[submodule "apis/nlp"]
+	path = apis/nlp
+	url = git@github.com:paulshorey/backend-nlp.git
+  branch = main
+
+[submodule "apis/web"]
+	path = apis/web
+	url = git@github.com:paulshorey/cloudfront-worker-web.git
+  branch = main
+
+[submodule "modules/cconsole"]
+	path = modules/cconsole
+	url = git@github.com:paulshorey/cconsole.git
+  branch = main
+
+[submodule "modules/constants"]
+	path = modules/constants
+	url = git@github.com:paulshorey/constants.git
+  branch = main
+
+[submodule "modules/fn"]
+	path = modules/fn
+	url = git@github.com:paulshorey/fn.git
+  branch = main
+
+[submodule "modules/ui"]
+	path = modules/ui
+	url = git@github.com:paulshorey/ui.git
+  branch = main
