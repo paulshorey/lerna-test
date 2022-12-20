@@ -58,4 +58,5 @@ for dir in $(find "$1" -maxdepth 2 -type d ! -path "*node_modules*" ! -path "*no
 done
 
 # Commit the root
+echo -e "\n\033[0;33mDONE. Committing changes in \033[0m" "\033[0;32mroot multi-repo.\033[0m"
 git_save "$2"
