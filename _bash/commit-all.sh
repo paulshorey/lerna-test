@@ -7,7 +7,6 @@ function process_dir {
   # $1 is the directory passed as an argument to the function
   if [ -d "$1/.git" ]; then
     echo "Committing any changes in $1"
-    git fetch --all
     git add .
     git pull 
     git commit -m "$2"
