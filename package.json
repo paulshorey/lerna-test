@@ -8,6 +8,7 @@
     "modules/*"
   ],
   "scripts": {
+    "save": "bash _bin/commit-all.sh . ",
     "build-turbo": "turbo run build",
     "build-lerna": "lerna run build",
     "dev-turbo": "turbo run dev --parallel"
